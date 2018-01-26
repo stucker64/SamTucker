@@ -1,0 +1,57 @@
+
+html{
+  	background: url("../images/mountain-background.jpg") !important;
+  	background-repeat: no-repeat;
+    background-size: cover;
+  	}
+
+h1{
+	font-family: "Helvetica";
+	font-size: 26px;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+	background: rgba(76, 175, 80, 0.3);
+}
+
+nav {
+  position: relative;
+}    
+
+/* Important stuff */
+
+.panel-heading{
+	text-align: center; 
+	padding-top: 10px;
+}
+
+.panel-body{
+	float: center;
+}
+
+.dropdown {
+  display:none;
+  position: absolute;
+  top: 100%;
+  margin-top: .5em;
+  min-width: 12em;
+  padding: 0;
+  border-radius: 0 0 .2em .2em;
+  }  
+
+
+.dropdown-toggle {
+  padding: .5em 1em;
+  border-radius: .2em .2em 0 0;
+	}
+
+.dropdown li{
+      list-style-type: none;
+      background: white;
+    }
+
+.dropdown a{
+        text-decoration: none;
+        padding: .5em 1em;
+        display: block;
+ }
