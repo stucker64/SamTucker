@@ -1,8 +1,17 @@
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 h1{
-	font-family: "Helvetica";
+	font-family: 'Bookman' !important;
 	font-size: 20px;
 	font-style: italic;
+}
+
+p{
+    font-size: 16px;
 }
 
 /* Important stuff */
@@ -14,6 +23,11 @@ h1{
 
 .panel-body{
 	float: center;
+}
+
+.contentbox{
+    border:  5px black;
+    background-color: rgba(177, 188, 206, .55)
 }
 
 .backgroundimage{
@@ -29,6 +43,29 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.MTGbackgroundimage{
+    background-image: url(blacklotus.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: .45;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* NavBar styles */
+.dropdown-menu li:hover{
+    background-color: #337ab7 !important;
+}
+
+
+
+/* Column */
 
 .col-md-6 h1, a {
     padding: 1px;
@@ -39,3 +76,93 @@ h1{
     padding: 1px;
     margin: 0px;
 }
+
+.footer,
+.push {
+  height: 50px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+/* RESUME */
+
+.resume{
+    font-family: Tahoma;
+    font-weight: bold;
+
+}
+
+.resumetitle{
+    background-color: rgba(30, 30, 255,.8);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.resume ul{
+    padding:  0px;
+    list-style: none;
+}
+
+.resume li{
+    padding-left: 15px;
+}
+
+.resume h1{
+}
+
+.resume h2{
+    background-color: rgba(59, 59, 241,.75);
+    border: 3px solid rgba(0, 0, 0, .4);
+    border-collapse: collapse;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.textbox{
+    background-color: rgba(238, 204, 204, .8);
+    border: 1px solid black; 
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Table*/
+
+table, th, td{
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: rgba(0, 132, 132, .6)
+}
+
+td{
+   text-align: center; 
+   color: #423939;
+}
+
+
+th{
+    padding: 10px !important;
+    text-align: left;
+}
+caption{
+    background-color: #c5c0db;
+    color: #e01818 !important;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.CardTypes th{
+    font-weight: bold;
+}
+
+/*Images*/
